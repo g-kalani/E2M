@@ -9,7 +9,7 @@ load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def generate_learning_plan(current_skills, target_role, time_commitment, difficulty):
-    model = genai.GenerativeModel('gemini-.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     
     prompt = f"""
     Based on your current skills ({current_skills}), goal ({target_role}), difficulty level ({difficulty}), and {time_commitment} dedicated each day, here is your personalized 30-day learning plan.
