@@ -81,4 +81,3 @@ While this MVP fulfills all functional requirements, the following improvements 
 
 * **Live Resource Verification:** Currently, resources are suggested based on LLM training data. Future versions could integrate the Google Search API to provide real-time, verified links.
 * **Interactive Checkpoints:** Adding the ability to "mark as complete" directly in the Streamlit UI to track progress.
-* **Calendar Export:** Allowing users to download an `.ics` file to block out their learning time on a real calendar.
